@@ -181,3 +181,8 @@ A real deployment requires a production-accessible MongoDB database and environm
 
 GitHub Repository: **TO BE ADDED**  
 Deployed Application: **TO BE ADDED**
+
+
+## Live Application
+
+https://berlin-event-hub-final.onrender.com

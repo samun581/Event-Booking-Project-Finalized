@@ -1,0 +1,30 @@
+{
+  "name": "berlin-event-hub",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "backend": "node --watch backend/server.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm run backend\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write --experimental-cli src/",
+    "start": "node backend/server.js",
+    "start:prod": "npm run build && node backend/server.js"
+  },
+  "dependencies": {
+    "vue": "^3.5.40",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "concurrently": "^10.0.5",
+    "prettier": "3.9.5",
+    "vite": "^8.1.5",
+    "vite-plugin-vue-devtools": "^8.1.5"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}

@@ -179,10 +179,8 @@ A real deployment requires a production-accessible MongoDB database and environm
 
 ## Submission links
 
-GitHub Repository: **TO BE ADDED**  
-Deployed Application: **TO BE ADDED**
+GitHub Repository: https://github.com/samun581/Event-Booking-Project-Finalized
+Deployed Application: https://berlin-event-hub-final.onrender.com
 
 
-## Live Application
 
-https://berlin-event-hub-final.onrender.com
